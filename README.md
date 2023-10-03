@@ -1,0 +1,2 @@
+# vcpkg_opencv_install
+使用vcpkg安装vcpkg必备的库
