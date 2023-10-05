@@ -11,6 +11,11 @@ sudo apt install git curl zip unzip tar
 sudo apt install libxcb-xinerama0 libxcb-xinerama0-dev libgl1-mesa-dev cmake ninja-build clang clang-format llvm lldb
 ```
 
+### ubuntu安装qt的配色方案
+```bash
+git clone https://github.com/lilmik/QtCreator-Color-Schemes.git
+```
+
 ### ubuntu系列使用vcpkg安装opencv必备的库
 
 ```bash
