@@ -1,7 +1,12 @@
 # linux_install_notes
 在linux下安装配置qt环境的记录。目前vcpkg安装测试过的库`opencv`,`numcpp`,`boost`,`onnxruntime-gpu`.
 
-### ubuntu安装qt补充的库
+### ubuntu安装后补充安装的包
+```bash
+sudo apt install git
+```
+
+### ubuntu安装qt补充的包
 ```bash
 sudo apt install libxcb-xinerama0 libxcb-xinerama0-dev libgl1-mesa-dev clang clang-format llvm lldb
 ```
