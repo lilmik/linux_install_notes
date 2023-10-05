@@ -3,12 +3,12 @@
 
 ### ubuntu安装后补充安装的包
 ```bash
-sudo apt install git curl zip unzip tar cmake ninja-build
+sudo apt install git curl zip unzip tar 
 ```
 
 ### ubuntu安装qt补充的包
 ```bash
-sudo apt install libxcb-xinerama0 libxcb-xinerama0-dev libgl1-mesa-dev clang clang-format llvm lldb
+sudo apt install libxcb-xinerama0 libxcb-xinerama0-dev libgl1-mesa-dev cmake ninja-build clang clang-format llvm lldb
 ```
 
 ### ubuntu系列使用vcpkg安装opencv必备的库
