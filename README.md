@@ -1,7 +1,10 @@
-# vcpkg_install_notes
-目前vcpkg安装测试过的库`opencv`,`numcpp`,`boost`,`onnxruntime-gpu`.
+# linux_install_notes
+在linux下安装配置qt环境的记录。目前vcpkg安装测试过的库`opencv`,`numcpp`,`boost`,`onnxruntime-gpu`.
 
-
+### ubuntu安装qt补充的库
+```bash
+sudo apt install libxcb-xinerama0 libxcb-xinerama0-dev ibgl1-mesa-dev
+```
 
 ### ubuntu系列使用vcpkg安装opencv必备的库
 
