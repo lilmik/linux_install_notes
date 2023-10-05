@@ -20,6 +20,7 @@ sudo apt install bison gperf nasm libx11-dev libxft-dev libxext-dev libdbus-1-de
 ### ubuntu安装vcpkg
 
 ```bash
+cd ~
 git clone https://github.com/Microsoft/vcpkg.git
 ./vcpkg/bootstrap-vcpkg.sh
 ```
