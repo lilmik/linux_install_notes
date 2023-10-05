@@ -3,7 +3,7 @@
 
 ### ubuntu安装后补充安装的包
 ```bash
-sudo apt install git
+sudo apt install git curl zip unzip tar cmake ninja-build
 ```
 
 ### ubuntu安装qt补充的包
