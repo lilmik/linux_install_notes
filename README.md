@@ -17,7 +17,12 @@ sudo apt install libxcb-xinerama0 libxcb-xinerama0-dev libgl1-mesa-dev clang cla
 sudo apt install bison gperf nasm libx11-dev libxft-dev libxext-dev libdbus-1-dev libxi-dev libxtst-dev libgl1-mesa-dev libgles2-mesa-dev libglu1-mesa-dev libtool libudev-dev libx11-xcb-dev libxcursor-dev libxdamage-dev libxinerama-dev libxrandr-dev build-essential gcc g++ cmake ninja-build python3-distutils pkg-config
 ```
 
+### ubuntu安装vcpkg
 
+```bash
+git clone https://github.com/Microsoft/vcpkg.git
+./vcpkg/bootstrap-vcpkg.sh
+```
 
 ### ubuntu系列使用vcpkg安装numcpp必备的库
 
