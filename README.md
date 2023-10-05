@@ -24,6 +24,17 @@ git clone https://github.com/Microsoft/vcpkg.git
 ./vcpkg/bootstrap-vcpkg.sh
 ```
 
+### ubuntu安装vcpkg后配置~/.bashrc
+
+```bash
+nano ~/.bashrc
+
+# vcpkg
+export PATH="/home/$USER/vcpkg/:$PATH"
+
+source ~/.bashrc
+```
+
 ### ubuntu系列使用vcpkg安装numcpp必备的库
 
 ```bash
