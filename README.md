@@ -23,7 +23,7 @@ sudo apt install bison gperf nasm libx11-dev libxft-dev libxext-dev libdbus-1-de
 ```
 
 ### ubuntu系列使用qt碰到的问题,并附解决方案
-在linux下安装配置clang环境后,无法使用clang编译c++文件,然后提示qt缺少部分库文件.
+在linux下安装配置clang环境后,无法使用clang编译c++文件,然后提示qt缺少部分库文件.因为未找到`libstdc++-12-dev`对应的更高版本,所以clang整体换为12版.
 
 ```bash
 sudo apt install clang-12 libstdc++-12-dev libxcb-cursor0 libxcb-cursor-dev
