@@ -11,6 +11,22 @@ sudo apt install git curl zip unzip tar neofetch
 sudo apt install libxcb-xinerama0 libxcb-xinerama0-dev libgl1-mesa-dev cmake ninja-build clang clang-format llvm lldb
 ```
 
+### ubuntu安装qt需要切换国内源
+```bash
+中科大: http://mirrors.ustc.edu.cn/qtproject/
+
+清华: https://mirrors.tuna.tsinghua.edu.cn/qt/
+
+上海交大: http://mirrors.sjtug.sjtu.edu.cn/qt/
+
+CNNIC: https://mirrors.cnnic.cn/qt/
+
+阿里云: https://mirrors.aliyun.com/qt/
+
+腾讯云: https://mirrors.cloud.tencent.com/qt/
+
+```
+
 ### ubuntu安装qt的配色方案
 ```bash
 git clone https://github.com/lilmik/QtCreator-Color-Schemes.git
