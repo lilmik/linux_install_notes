@@ -11,7 +11,7 @@ sudo apt install git curl zip unzip tar neofetch oneko
 sudo apt install libxcb-xinerama0 libxcb-xinerama0-dev libgl1-mesa-dev cmake ninja-build clang clang-format llvm lldb 
 ```
 
-### ubuntu安装qt需要切换国内源
+### 安装qt需要切换国内源,否则龟速
 ```bash
 中科大: http://mirrors.ustc.edu.cn/qtproject/
 
