@@ -88,4 +88,7 @@ sudo zypper ar -fcg 'https://mirrors.ustc.edu.cn/opensuse/tumbleweed/repo/oss' U
 sudo zypper ar -fcg 'https://mirrors.ustc.edu.cn/opensuse/tumbleweed/repo/non-oss' USTC:NON-OSS
 sudo zypper ar -fcg 'https://mirrors.ustc.edu.cn/opensuse/update/tumbleweed' USTC:UPDATE
 ```
-
+对于 openSUSE Tumbleweed配置使用vcpkg尝试安装opencv，补充安装的包有：
+```bash
+sudo zypper in git
+```
