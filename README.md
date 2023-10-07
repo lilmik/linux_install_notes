@@ -93,7 +93,13 @@ sudo zypper ar -fcg 'https://mirrors.ustc.edu.cn/opensuse/update/tumbleweed' UST
 sudo zypper in opi git nano cmake ninja bash-completion gcc gcc-c++ neofetch 
 ```
 
-openSUSE Tumbleweed配置使用vcpkg尝试安装opencv，补充安装的包有：
+### openSUSE Tumbleweed使用vcpkg安装opencv，补充安装的包有：
 ```bash
 sudo zypper in bison gperf nasm libdbus-c++-devel libXi-devel libXtst-devel libX11-devel libXft-devel libXext-devel Mesa-libEGL-devel Mesa-libGLESv2-devel Mesa-libGL-devel Mesa-libglapi-devel Mesa-libGLESv3-devel libtool libudev1 libX11-xcb1 libXcursor-devel libXdamage-devel libXinerama-devel libXrandr-devel
+```
+
+###  openSUSE Tumbleweed使用vcpkg安装numcpp，补充安装的包有：
+
+```bash
+sudo zypper in autoconf-archive
 ```
