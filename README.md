@@ -8,7 +8,7 @@ sudo apt install git curl zip unzip tar neofetch oneko
 
 ### ubuntu安装qt补充的包
 ```bash
-sudo apt install libxcb-xinerama0 libxcb-xinerama0-dev libgl1-mesa-dev cmake ninja-build clang clang-format llvm lldb 
+sudo apt install libxcb-xinerama0 libxcb-xinerama0-dev libgl1-mesa-dev cmake ninja-build clang clang-format llvm lldb gdb
 ```
 
 ### 安装qt需要切换国内源,否则龟速
