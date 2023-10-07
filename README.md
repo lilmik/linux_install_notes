@@ -3,12 +3,12 @@
 
 ### ubuntu安装后补充安装的包
 ```bash
-sudo apt install git curl zip unzip tar neofetch
+sudo apt install git curl zip unzip tar neofetch oneko
 ```
 
 ### ubuntu安装qt补充的包
 ```bash
-sudo apt install libxcb-xinerama0 libxcb-xinerama0-dev libgl1-mesa-dev cmake ninja-build clang clang-format llvm lldb
+sudo apt install libxcb-xinerama0 libxcb-xinerama0-dev libgl1-mesa-dev cmake ninja-build clang clang-format llvm lldb 
 ```
 
 ### ubuntu安装qt需要切换国内源
@@ -90,7 +90,7 @@ sudo zypper ar -fcg 'https://mirrors.ustc.edu.cn/opensuse/update/tumbleweed' UST
 ```
 对于 openSUSE Tumbleweed安装完毕后，补充系统基础包包括：
 ```bash
-sudo zypper in opi git nano cmake ninja bash-completion gcc gcc-c++
+sudo zypper in opi git nano cmake ninja bash-completion gcc gcc-c++ neofetch 
 ```
 
 openSUSE Tumbleweed配置使用vcpkg尝试安装opencv，补充安装的包有：
