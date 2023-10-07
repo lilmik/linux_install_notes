@@ -35,7 +35,7 @@ git clone https://github.com/lilmik/QtCreator-Color-Schemes.git
 ### ubuntu系列使用vcpkg安装opencv必备的库
 
 ```bash
-sudo apt install bison gperf nasm libx11-dev libxft-dev libxext-dev libdbus-1-dev libxi-dev libxtst-dev libgl1-mesa-dev libgles2-mesa-dev libglu1-mesa-dev libtool libudev-dev libx11-xcb-dev libxcursor-dev libxdamage-dev libxinerama-dev libxrandr-dev build-essential gcc g++ cmake ninja-build python3-distutils pkg-config
+sudo apt install bison gperf nasm libx11-dev libxft-dev libxext-dev libdbus-1-dev libxi-dev libxtst-dev libgl1-mesa-dev libgles2-mesa-dev libglu1-mesa-dev libtool libudev-dev libx11-xcb-dev libxcursor-dev libxdamage-dev libxinerama-dev libxrandr-dev libsystemd-dev build-essential gcc g++ cmake ninja-build python3-distutils pkg-config
 ```
 
 ### ubuntu系列使用qt碰到的问题,并附解决方案
