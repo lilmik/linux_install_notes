@@ -95,5 +95,5 @@ sudo zypper in opi git nano cmake ninja bash-completion gcc gcc-c++
 
 openSUSE Tumbleweed配置使用vcpkg尝试安装opencv，补充安装的包有：
 ```bash
-sudo zypper in bison libdbus-c++-devel libXi-devel libXtst-devel
+sudo zypper in bison libdbus-c++-devel libXi-devel libXtst-devel libX11-devel libXft-devel
 ```
