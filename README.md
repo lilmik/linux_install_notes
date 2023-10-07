@@ -73,7 +73,7 @@ sudo apt install autoconf-archive
 
 ### openSuse使用vcpkg安装opencv有些库无法找到替代,暂时未成功安装
 https://mirrors.ustc.edu.cn/help/opensuse.html
-更换国内源，提高更新下载速度，我使用的是openSUSE Tumbleweed版本
+更换国内源，提高更新下载速度，我使用的是openSUSE Tumbleweed版本.
 确认当前配置的软件源；
 ```bash
 sudo zypper lr -d
