@@ -90,5 +90,5 @@ sudo zypper ar -fcg 'https://mirrors.ustc.edu.cn/opensuse/update/tumbleweed' UST
 ```
 对于 openSUSE Tumbleweed配置使用vcpkg尝试安装opencv，补充安装的包有：
 ```bash
-sudo zypper in git
+sudo zypper in opi git nano cmake ninja bash-completion gcc gcc-c++
 ```
