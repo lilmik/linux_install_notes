@@ -45,6 +45,15 @@ sudo apt install bison gperf nasm libx11-dev libxft-dev libxext-dev libdbus-1-de
 sudo apt install clang-12 libstdc++-12-dev libxcb-cursor0 libxcb-cursor-dev
 ```
 
+### ubuntu系列安装额外内核驱动
+在linux下发现连接了蓝牙耳机不能播放声音,尝试安装额外内核
+
+```bash
+udo apt install linux-modules-extra-6.2.0-34-generic linux-image-6.2.0-34-generic linux-headers-6.2.0-34-generic linux-hwe-6.2-headers-6.2.0-34 linux-modules-6.2.0-34-generic grub-common grub-gfxpayload-lists grub-pc grub-pc-bin grub2-common os-prober
+// Suggested packages:
+// multiboot-doc grub-emu mtools xorriso desktop-base fdutils linux-doc | linux-hwe-6.2-source-6.2.0 linux-hwe-6.2-tools
+```
+
 ### ubuntu安装vcpkg
 
 ```bash
