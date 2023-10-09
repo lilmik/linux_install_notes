@@ -112,3 +112,9 @@ sudo zypper in bison gperf nasm libdbus-c++-devel libXi-devel libXtst-devel libX
 ```bash
 sudo zypper in autoconf-archive
 ```
+
+###  Windows设置vcpkg默认安装x64-windows版本程序，设置环境变量：
+
+```bash
+VCPKG_DEFAULT_TRIPLET=x64-windows
+```
