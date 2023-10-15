@@ -33,8 +33,9 @@ git clone https://github.com/lilmik/QtCreator-Color-Schemes.git
 ```
 
 ### linux自己编译的qt及qtcreator中无法输入中文的解决方案
+下面代码使用示例uos系统（arm架构）
 ```bash
-git clone https://github.com/lilmik/QtCreator-Color-Schemes.git
+sudo cp sudo cp /usr/lib/aarch64-linux-gnu/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so /opt/qt/qt-5.15.10/plugins/platforminputcontexts/
 ```
 
 ### ubuntu系列使用vcpkg安装opencv必备的库
