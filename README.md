@@ -32,6 +32,11 @@ CNNIC: https://mirrors.cnnic.cn/qt/
 git clone https://github.com/lilmik/QtCreator-Color-Schemes.git
 ```
 
+### linux自己编译的qt及qtcreator中无法输入中文的解决方案
+```bash
+git clone https://github.com/lilmik/QtCreator-Color-Schemes.git
+```
+
 ### ubuntu系列使用vcpkg安装opencv必备的库
 
 ```bash
