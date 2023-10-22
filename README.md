@@ -124,3 +124,11 @@ sudo zypper in autoconf-archive
 ```bash
 VCPKG_DEFAULT_TRIPLET=x64-windows
 ```
+
+###  MacOS使用vcpkg安装opencv,numcpp需要补充的包：
+```zsh
+brew install autoconf
+brew install automake
+brew install autoconf-archive
+brew install pkg-config
+```
