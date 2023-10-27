@@ -89,23 +89,23 @@ sudo apt install autoconf-archive
 ### openSuse使用vcpkg安装opencv的库名和ubuntu不一样，需要使用注意
 https://mirrors.ustc.edu.cn/help/opensuse.html
 更换国内源，提高更新下载速度，我使用的是openSUSE Tumbleweed版本.
-确认当前配置的软件源；
+### 确认当前配置的软件源；
 ```bash
 sudo zypper lr -d
 ```
-禁用原有软件源；
+### 禁用原有软件源；
 ```bash
 sudo zypper mr -da
 ```
-对于 openSUSE Tumbleweed，只需执行：
+### 对于 openSUSE Tumbleweed，只需执行：
 ```bash
 sudo zypper ar -fcg 'https://mirrors.ustc.edu.cn/opensuse/tumbleweed/repo/oss' USTC:OSS
 sudo zypper ar -fcg 'https://mirrors.ustc.edu.cn/opensuse/tumbleweed/repo/non-oss' USTC:NON-OSS
 sudo zypper ar -fcg 'https://mirrors.ustc.edu.cn/opensuse/update/tumbleweed' USTC:UPDATE
 ```
-对于 openSUSE Tumbleweed安装完毕后，补充系统基础包包括：
+### 对于 openSUSE Tumbleweed安装完毕后，补充系统基础包包括：
 ```bash
-sudo zypper in opi git nano cmake ninja bash-completion gcc gcc-c++ neofetch 
+sudo zypper in opi git nano cmake ninja bash-completion gcc gcc-c++ neofetch curl zip unzip tar
 ```
 
 ### openSUSE Tumbleweed使用vcpkg安装opencv，补充安装的包有：
