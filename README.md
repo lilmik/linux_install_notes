@@ -6,9 +6,9 @@
 sudo apt install git curl zip unzip tar neofetch oneko
 ```
 
-### ubuntu安装qt补充的包
+### ubuntu安装qt补充的包,cmake不使用默认包,采用编译安装
 ```bash
-sudo apt install libxcb-xinerama0 libxcb-xinerama0-dev libgl1-mesa-dev cmake ninja-build clang clang-format llvm lldb gdb
+sudo apt install libxcb-xinerama0 libxcb-xinerama0-dev libgl1-mesa-dev ninja-build clang clang-format llvm lldb gdb
 ```
 
 ### 安装qt需要切换国内源,否则龟速
@@ -38,10 +38,10 @@ git clone https://github.com/lilmik/QtCreator-Color-Schemes.git
 sudo cp sudo cp /usr/lib/aarch64-linux-gnu/qt5/plugins/platforminputcontexts/libfcitxplatforminputcontextplugin.so /opt/qt/qt-5.15.10/plugins/platforminputcontexts/
 ```
 
-### ubuntu系列使用vcpkg安装opencv必备的库
+### ubuntu系列使用vcpkg安装opencv必备的库,cmake不使用默认包,采用编译安装
 
 ```bash
-sudo apt install bison gperf nasm libx11-dev libxft-dev libxext-dev libdbus-1-dev libxi-dev libxtst-dev libgl1-mesa-dev libgles2-mesa-dev libglu1-mesa-dev libtool libudev-dev libx11-xcb-dev libxcursor-dev libxdamage-dev libxinerama-dev libxrandr-dev libsystemd-dev build-essential gcc g++ cmake ninja-build python3-distutils pkg-config libibus-1.0-dev python3-jinja2 autopoint libtool
+sudo apt install bison gperf nasm libx11-dev libxft-dev libxext-dev libdbus-1-dev libxi-dev libxtst-dev libgl1-mesa-dev libgles2-mesa-dev libglu1-mesa-dev libtool libudev-dev libx11-xcb-dev libxcursor-dev libxdamage-dev libxinerama-dev libxrandr-dev libsystemd-dev build-essential gcc g++ ninja-build python3-distutils pkg-config libibus-1.0-dev python3-jinja2 autopoint libtool
 ```
 
 ### ubuntu系列使用qt碰到的问题,并附解决方案
