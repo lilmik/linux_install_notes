@@ -75,6 +75,7 @@ nano ~/.bashrc
 
 # vcpkg
 export PATH="/home/$USER/vcpkg/:$PATH"
+export VCPKG_FORCE_SYSTEM_BINARIES=1
 
 source ~/.bashrc
 ```
