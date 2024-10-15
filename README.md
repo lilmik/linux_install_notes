@@ -6,9 +6,9 @@
 sudo apt install git curl zip unzip tar neofetch oneko
 ```
 
-### ubuntu安装qt补充的包,cmake不使用默认包,采用编译安装
+### ubuntu安装qt补充的包
 ```bash
-sudo apt install libxcb-xinerama0 libxcb-xinerama0-dev libgl1-mesa-dev ninja-build clang clang-format llvm lldb gdb
+sudo apt install libxcb-xinerama0 libxcb-xinerama0-dev libgl1-mesa-dev ninja-build clang clang-format llvm lldb gdb libxcb-cursor0 libxcb-cursor-dev gcc g++ cmake build-essential
 ```
 
 ### 安装qt需要切换国内源,否则龟速
