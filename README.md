@@ -133,3 +133,8 @@ brew install automake
 brew install autoconf-archive
 brew install pkg-config
 ```
+
+### ubuntu安装后使用x11为默认桌面环境
+```bash
+sudo nano /etc/gdm3/custom.conf
+```
